@@ -1,0 +1,34 @@
+import './Rodape.css'
+const Rodape = () => {
+    return (<footer className="footer">
+        <section>
+            <ul>
+                <li>
+                    <a href="facebook.com" target="_blank">
+                        <img src="/public/imagens/facebook.png" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="twitter.com" target="_blank">
+                        <img src="/public/imagens/twitter.png" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="instagram.com" target="_blank">
+                        <img src="/public/imagens/instagram.png" alt="" />
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <img src="/imagens/logo.png" alt="" />
+        </section>
+        <section>
+            <p>
+                Desenvolvido por Mateus.
+            </p>
+        </section>
+    </footer>)
+}
+
+export default Rodape
